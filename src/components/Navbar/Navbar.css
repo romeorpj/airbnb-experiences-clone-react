@@ -2,4 +2,8 @@
   height: 70px;
   width: 100%;
   box-shadow: 0 3px 7.5px 0 rgba(0, 0, 0, 0.099);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 30px;
 }/*# sourceMappingURL=Navbar.css.map */

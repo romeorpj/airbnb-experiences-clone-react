@@ -1,0 +1,10 @@
+.hero-container {
+  height: 295px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-container img {
+  width: 396px;
+}/*# sourceMappingURL=Hero.css.map */

@@ -40,9 +40,7 @@ P, li {
     font-size: 1.6rem;
 }
 /* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
+
 a {
     text-decoration: none;
 }
@@ -51,7 +49,7 @@ a {
 img,
 picture {
   max-width: 100%;
-  display: block;
+  display:block;
 }
  
 /* Inherit fonts for inputs and buttons */
@@ -71,14 +69,16 @@ select {
 }
 /* ########## END GLOBAL ########## */
 
-@mixin flex-row {
-  display:flex;
-  align-items: center;
-  justify-content: center;
-}
+// @mixin flex-row {
+//   display:flex;
+//   align-items: center;
+//   justify-content: center;
+// }
 
-@mixin flex-col {
-  display:flex;
-  align-items: center;
-  justify-content: center;
-}
+// @mixin flex-col {
+//   display:flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+// Revisit how to make global mixins
