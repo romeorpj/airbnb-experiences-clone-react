@@ -1,0 +1,21 @@
+.details {
+  display: flex;
+  align-items: center;
+}
+
+.details i {
+  color: #FE395C;
+}
+
+.details i, .details span, p {
+  font-size: 1.2rem;
+}
+
+.details span:nth-of-type(2),
+.details span:nth-of-type(3) {
+  color: #918E9B;
+}
+
+p > span {
+  font-weight: bold;
+}/*# sourceMappingURL=Slider.css.map */

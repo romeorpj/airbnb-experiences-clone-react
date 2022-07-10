@@ -1,0 +1,25 @@
+$gray-text: #918E9B;
+$orange:#FE395C;
+
+.details{
+    display: flex;
+    align-items: center;
+    
+}
+
+.details i{
+    color: $orange;
+}
+
+.details i, .details span, p{
+font-size: 1.2rem;
+}
+
+.details span:nth-of-type(2), 
+.details span:nth-of-type(3){
+    color: $gray-text;
+}
+
+p > span{
+    font-weight: bold;
+}
